@@ -1,0 +1,107 @@
+.cart-box{
+    display: list-item;
+}
+.cart-container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 40px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2a2a2a;
+    margin-bottom: 30px;
+  }
+  
+  .cart-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .cart-item {
+    background: linear-gradient(145deg, #ffffff, #f1f1f1);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+    
+  }
+  
+  .cart-item:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  .cart-item-details {
+    flex-grow: 1;
+  }
+  
+  .cart-item-details h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .cart-item-details p {
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  .seat-details {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #555;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .seat-details .seat-type {
+    color: #3498db;
+  }
+  
+  .seat-details .seat-count {
+    font-weight: bold;
+    color: #27ae60;
+  }
+  
+  .cancel-btn {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #e74c3c;
+  }
+  
+  .cart-item-details .price {
+    color: #27ae60;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  
+  .cart-item-details .month {
+    color: #3498db;
+    font-size: 1.1rem;
+  }
+  
+  .cart-list .empty-cart {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+  }
+  

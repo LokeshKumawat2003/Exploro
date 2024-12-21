@@ -1,0 +1,108 @@
+.trip-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.trip-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trip-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.upper-card {
+  position: relative;
+}
+
+.upper-card-img-container {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.upper-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.trip-category-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.trip-category-text {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.vacancy-container {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.vacancy-text {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.lower-card {
+  padding: 15px;
+  text-align: center;
+}
+
+.lower-card-text {
+  font-size: 14px;
+  color: #333;
+  margin: 5px 0;
+}
+
+.price-text {
+  color: #e65439;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.lower-card-button {
+  background-color: #e65439;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.lower-card-button:hover {
+  background-color: #d1482f;
+}
+
+.lower-card-img {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 8px;
+}
